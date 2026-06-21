@@ -1,2 +1,2 @@
 # IntroML_Project
-Prévision de consommations électriques 
+Prévision d'un type de culture par des données climatiques et chimiques.
