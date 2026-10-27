@@ -12,7 +12,7 @@ Prédire une **classe de culture agricole** à partir de sept caractéristiques 
 - Cible : `Crop`.
 - Aucune valeur manquante relevée dans le notebook.
 
-L'équilibre des classes facilite l'évaluation, mais ne garantit ni l'absence de biais ni la représentativité du jeu de données pour des exploitations réelles. La provenance et les conditions de collecte doivent être précisées avant toute utilisation opérationnelle.
+L'équilibre des classes facilite l'évaluation, mais ne garantit ni l'absence de biais ni la représentativité du jeu de données pour des exploitations réelles.
 
 ## Méthodologie
 1. Inspection des données et visualisation exploratoire avec **t-SNE**.
