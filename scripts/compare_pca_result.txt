@@ -1,0 +1,67 @@
+\nSVM sans PCA
+Best CV accuracy: 0.9858
+Best params: {'svm__C': 10, 'svm__gamma': 0.01, 'svm__kernel': 'linear'}
+Test accuracy: 0.98864
+              precision    recall  f1-score   support
+
+       Apple       1.00      1.00      1.00        20
+      Banana       1.00      1.00      1.00        20
+   Blackgram       1.00      1.00      1.00        20
+    ChickPea       1.00      1.00      1.00        20
+     Coconut       1.00      1.00      1.00        20
+      Coffee       1.00      1.00      1.00        20
+      Cotton       0.95      1.00      0.98        20
+      Grapes       1.00      1.00      1.00        20
+        Jute       0.87      1.00      0.93        20
+ KidneyBeans       1.00      1.00      1.00        20
+      Lentil       0.95      1.00      0.98        20
+       Maize       1.00      0.95      0.97        20
+       Mango       1.00      1.00      1.00        20
+   MothBeans       1.00      0.95      0.97        20
+    MungBean       1.00      1.00      1.00        20
+   Muskmelon       1.00      1.00      1.00        20
+      Orange       1.00      1.00      1.00        20
+      Papaya       1.00      1.00      1.00        20
+  PigeonPeas       1.00      1.00      1.00        20
+ Pomegranate       1.00      1.00      1.00        20
+        Rice       1.00      0.85      0.92        20
+  Watermelon       1.00      1.00      1.00        20
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
+
+\nSVM avec PCA
+Best CV accuracy: 0.9858
+Best params: {'pca__n_components': 7, 'svm__C': 10, 'svm__gamma': 0.01, 'svm__kernel': 'linear'}
+Test accuracy: 0.98864
+              precision    recall  f1-score   support
+
+       Apple       1.00      1.00      1.00        20
+      Banana       1.00      1.00      1.00        20
+   Blackgram       1.00      1.00      1.00        20
+    ChickPea       1.00      1.00      1.00        20
+     Coconut       1.00      1.00      1.00        20
+      Coffee       1.00      1.00      1.00        20
+      Cotton       0.95      1.00      0.98        20
+      Grapes       1.00      1.00      1.00        20
+        Jute       0.87      1.00      0.93        20
+ KidneyBeans       1.00      1.00      1.00        20
+      Lentil       0.95      1.00      0.98        20
+       Maize       1.00      0.95      0.97        20
+       Mango       1.00      1.00      1.00        20
+   MothBeans       1.00      0.95      0.97        20
+    MungBean       1.00      1.00      1.00        20
+   Muskmelon       1.00      1.00      1.00        20
+      Orange       1.00      1.00      1.00        20
+      Papaya       1.00      1.00      1.00        20
+  PigeonPeas       1.00      1.00      1.00        20
+ Pomegranate       1.00      1.00      1.00        20
+        Rice       1.00      0.85      0.92        20
+  Watermelon       1.00      1.00      1.00        20
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
+
+\nNote: these are new experiments; compare against the original notebook separately.
