@@ -87,6 +87,12 @@ La PCA a donc pleinement joué son rôle dans la démarche : **elle a été exp�
 
 Cette conclusion porte sur les expériences documentées ; elle ne démontre pas que la PCA serait inutile pour tout autre jeu de données ou toute autre configuration.
 
+## Visualisations et résultats détaillés
+
+📊 **Les supports visuels et les résultats de la modélisation sont consultables directement dans le notebook [`svm.ipynb`](svm.ipynb)** : distribution des 22 classes, projection t-SNE, matrices de confusion, rapports de classification, résultats de GridSearchCV et métriques d'évaluation.
+
+Pour approfondir la **comparaison SVM avec et sans PCA**, consulter le [script expérimental](scripts/compare_pca.py) et les [résultats enregistrés](scripts/compare_pca_result.txt).
+
 ## Organisation du dépôt
 
 ```text
